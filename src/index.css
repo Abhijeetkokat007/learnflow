@@ -1,0 +1,27 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+padding: 0;
+}
+.bg-green{
+  background-color: #64dd0d;
+}
+.h-text-green:hover{
+color: #64dd0d;
+}
+.col-yello{
+color: #fbbc55;
+}
+.col-yello{
+  color: #fbbc55;
+  }
+.nav-bg{
+  backdrop-filter: blur(20px);
+ border-bottom: 2px solid #64dd0d;
+}
