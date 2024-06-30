@@ -1,0 +1,15 @@
+.footer-container{
+    /* background-color: rgb(242, 240, 240); */
+    /* color: white !important;
+    background-color: black; */
+    border-top: 2px solid #64dd0d;
+    border-radius: 20px;
+   
+}
+
+.foot-logo{
+font-size: 30px;
+}
+.pages-foot{
+    width: 300px;
+}
