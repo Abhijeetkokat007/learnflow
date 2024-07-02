@@ -15,13 +15,22 @@ padding: 0;
 .h-text-green:hover{
 color: #64dd0d;
 }
+.text-green{
+  color: #64dd0d;
+  }
 .col-yello{
 color: #fbbc55;
 }
-.col-yello{
-  color: #fbbc55;
+.bg-yello{
+  background-color: #fbbc55;
   }
 .nav-bg{
   backdrop-filter: blur(20px);
  border-bottom: 2px solid #64dd0d;
+}
+.border-green{
+  border: 2px solid #64dd0d;
+}
+.dropshado-dark{
+  filter: drop-shadow(0 0 20px rgb(130, 129, 129));
 }
