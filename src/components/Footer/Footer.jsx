@@ -7,12 +7,8 @@ function Footer() {
   return (
     <div className="bg-black">
       <footer className="footer-container text-center bg-white dark:bg-black text-neutral-600 dark:text-neutral-300  lg:text-left">
-        
-
-        {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="flex items-center justify-between flex-wrap p-5">
-            {/* <!-- TW Elements section --> */}
             <div className="pages-foot">
               <h2 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start foot-logo">
                 <img className="foot-logo w-auto" src={Logo} alt="logo" />
@@ -21,7 +17,6 @@ function Footer() {
                
               </p>
             </div>
-            {/* <!-- Products section --> */}
             <div className="pages-foot flex justify-center items-top flex-col">
               <h6 className="mb-4 flex justify-center col-yello sm:block font-semibold uppercase md:justify-start">
                 PAGES
@@ -52,7 +47,6 @@ function Footer() {
                 </a>
               </p>
             </div>
-            {/* <!-- Useful links section --> */}
             <div className="pages-foot flex justify-center items-top flex-col">
               <h6 className="mb-4 col-yello  font-semibold uppercase ">
                 Documentation
@@ -83,7 +77,6 @@ function Footer() {
                 </a>
               </p>
             </div>
-            {/* <!-- Contact section --> */}
             <div className="pages-foot">
               <h6 className="mb-4 flex justify-center font-semibold uppercase col-yello">
                 Follow, contact, tag, like, clone, watch - me
